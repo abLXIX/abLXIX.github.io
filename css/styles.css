@@ -1,0 +1,41 @@
+body 
+{
+	margin: 0;
+	height: 100vh;
+	display: flex;
+	flex-direction: column; /* Stack elements vertically */
+	align-items: center; /* Center horizontally */
+	background-color: #f0f0f0;
+}
+blockquote 
+{
+	font-size: 1.2rem; /* Increase quote font size */
+	margin-top: 30px;
+	background-color: #f0f0fa;
+}
+nav 
+{
+	margin-top: 40px;
+}
+nav a 
+{
+	text-decoration: none;
+	color: #007BFF;
+	margin: 0 15px;
+	font-size: 1.1rem;
+}
+nav a:hover 
+{
+	text-decoration: underline;
+}
+.content 
+{
+	margin-top: 50px; /* Space below the links */
+	text-align: left; /* Left-align content */
+	width: 40%; /* Control the content width */
+}
+.content li 
+{
+	font-size: 1.2rem;
+	margin-bottom: 10px; /* Add gap between each list item */
+}
