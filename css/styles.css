@@ -5,17 +5,20 @@ body
 	display: flex;
 	flex-direction: column; /* Stack elements vertically */
 	align-items: center; /* Center horizontally */
-	background-color: #f0f0f0;
+	background-color: #cde1cf;
 }
 blockquote 
 {
 	font-size: 1.2rem; /* Increase quote font size */
-	margin-top: 30px;
-	background-color: #f0f0fa;
+	margin-top: 30px;	
+    border-left: 4px solid rgba(0, 0, 0, 0.2); /* Subtle border */
+    padding: 10px 20px;
 }
 nav 
 {
 	margin-top: 40px;
+	display: flex; /* Enable Flexbox for `nav` */
+	flex-wrap: wrap; /* Allow links to wrap if they can't fit in one line */
 }
 nav a 
 {
@@ -32,7 +35,8 @@ nav a:hover
 {
 	margin-top: 50px; /* Space below the links */
 	text-align: left; /* Left-align content */
-	width: 40%; /* Control the content width */
+	width: 90%; /* Control the content width */
+	max-width: 600px;
 }
 .content li 
 {
