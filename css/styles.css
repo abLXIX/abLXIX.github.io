@@ -22,13 +22,9 @@ nav
 }
 nav a 
 {
-	text-decoration: none;
 	color: #007BFF;
 	margin: 0 15px;
-	font-size: 1.1rem;
-}
-nav a:hover 
-{
+	font-size: 1.3rem;
 	text-decoration: underline;
 }
 .content 
@@ -42,4 +38,15 @@ nav a:hover
 {
 	font-size: 1.2rem;
 	margin-bottom: 10px; /* Add gap between each list item */
+}
+td
+{
+	font-size: 1.2rem; 
+}
+#posts-title 
+{
+	color: #007BFF;
+}
+#index-table {
+    border-spacing: 0 10px;
 }
